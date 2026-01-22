@@ -1,0 +1,37 @@
+@import "tailwindcss";@import "tailwindcss";
+
+.tooltip {
+  display: none;
+  background: white;
+  color: black;
+  font-weight: thin;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 0.5rem;
+  text-wrap: nowrap;
+  width: max-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.dropdown {
+  background: #2b2c2f;
+  color: #bbbdc0;
+  z-index: 5;
+  border-radius: 0.75rem;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#Add-list {
+  display: block;
+}
+
+#Listing {
+  display: none;
+}
